@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://debadritachakraborty1912:Debadrita2024@cluster0.2pfpmes.mongodb.net/Userforpaytm?retryWrites=true&w=majority&appName=Cluster0");
+//your mongodb url
+mongoose.connect(" ");
 
 const Userschema = new mongoose.Schema({
     username:String,
